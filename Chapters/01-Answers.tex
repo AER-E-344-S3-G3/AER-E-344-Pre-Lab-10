@@ -2,6 +2,52 @@
 \label{cp:answers}
 \section{Question 1}
 \begin{importantbox}
-    This is the question.
+    You should review and understand the concepts of shock wave, total‐static‐Mach relationship.
 \end{importantbox}
-\noindent{}This is the answer.
+
+A shock wave is a type of propagating disturbance. It occurs when a flow faces a sudden change in speed—usually when it encounters a body that needs to be circumvented—causing changes in the flow properties (pressure, temperature, and density).
+
+The total-static-Mach relationship associates the total pressure, $P_0$, the static pressure, $P$, and the Mach number, $M$, of an isentropic flow, as seen in \autoref{eq:P0/P}. 
+
+\begin{equation} \label{eq:P0/P}
+  \frac{P_0}{P} = \left(1 + \frac{\gamma - 1}{2}M^2\right)^\frac{\gamma}{(\gamma - 1)}
+\end{equation}
+
+\noindent{}Where $\gamma = 1.4$ for air. The conservation of mass, momentum, and energy and the definition of total enthalpy are used to derive this equation \citep{Benson_2021}.
+
+\section{Question 2}
+\begin{importantbox}
+    You should review and understand the concepts of quasi‐1D nozzle theory and de Laval nozzle.
+\end{importantbox}
+
+Quasi-1D nozzle theory is an approach to nozzles, analyzing flow as if it is one-dimensional. This prompts variations in pressure, temperature, and velocity to occur only along the length of the nozzle, rather than across the two-dimensional cross sectional area.
+
+A de Laval nozzle is a specific type of convergent-divergent nozzle that accelerates flow to supersonic speeds. A de Laval nozzle consists of three sections: a convergent section, a throat, and a divergent section. The convergent section accelerates the flow, the throat is where the flow reaches sonic speeds, and the divergent section is where the flow expands and then accelerates to supersonic speeds \citep{Anderson_2016}.
+
+\section{Question 3}
+\begin{importantbox}
+    You should review and understand the concepts of supersonic flow from a de Laval nozzle, under‐expanded flow, 3rd critical condition, over‐expanded flow with oblique shocks, 2nd critical condition, normal shock existing inside the nozzle, and 1st critical condition.
+\end{importantbox}
+
+For this question, we referenced \cite{Anderson_2016} and \cite{lecture12}.
+
+A de Laval nozzle is a convergent-divergent nozzle that has the ability to speed flow up to supersonic speeds under certain conditions. As the flow passes through the throat and into the divergent section of the nozzle, it expands and accelerates to supersonic speeds—assuming the flow at the throat reached sonic speeds.
+
+Under expanded flow takes place when pressure of the fluid exiting the nozzle is higher than the ambient pressure outside of the nozzle. Since pressure must be continuous for steady state flow, this pressure differential leads to the development of expansion shocks that accelerate the flow after it exits the nozzle.
+
+The third critical condition is a phenomenon that occurs at the exit of a de Laval nozzle when the pressure at the exit of the nozzle is exactly the same as the ambient pressure. Additionally, the flow at the exit of the divergent nozzle must be supersonic. In this case, the flow exits the nozzle uniformly with no positive or negative acceleration.
+
+Over-expanded flow takes place when the pressure at the nozzle exit is less than the ambient pressure. Here, the pressure differential causes oblique shock waves at the nozzle exit which decelerate the flow as it exits the nozzle and crosses the oblique shocks.
+
+The second critical condition takes place when the normal shock that develops within the divergent section of a de Laval nozzle moves to the exit of the nozzle. That is, there is normal shock exactly at the exit of the de Laval nozzle.
+
+When the flow in a de Laval nozzle is choked but the exit pressure is not low enough to maintain supersonic flow throughout the entirety of the divergent section, then a normal shock wave will develop inside the divergent section of the nozzle. As the exit pressure decreases, this normal shock wave will move to towards the exit.
+
+The first critical condition in a de Laval nozzle occurs when the flow at the throat first reaches sonic speeds. In this condition, the flow is subsonic in the convergent section, exactly sonic at the throat, and then continues decelerating in the subsonic regime in the divergent section. There is no shock wave and the flow is completely isentropic throughout the nozzle.
+
+\section{Question 4}
+\begin{importantbox}
+    You should review and understand the concepts of Shlieren technique.
+\end{importantbox}
+
+Both the Schlieren and shadowgraph technique are used to visualize flow patterns. While both methods use properties of light to show the flow of air that would be invisible to the naked eye, the shadowgraph technique shows light ray displacement whereas the Schlieren method shows the ray refraction angle. The Schlieren method also displays a focused image using a knife edge to deflect light rays while the shadowgraph technique displays a shadow. Mathematically, the Schlieren method is related to the first derivative of the index of refraction whereas the shadowgraph method is related to the second derivative \citep{lecture9}.
